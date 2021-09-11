@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Decol&display=swap');
+
+nav{
+    color: white;
+    background-color: #3DB2FF;
+    padding: 4rem;
+    text-shadow: 1px 1px 1px #1E3163;
+}
+
+nav h1{
+    padding-bottom: 2rem;
+    font-size: 3rem;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.nav-list{
+    font-size: 1.5rem;
+    font-weight: lighter;
+    list-style: none;
+    text-align: right;
+}
+
+nav div{
+    text-align: right;
+    margin-bottom: 20px;
+    
+}
+
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Kaisei Decol', serif;
+}
+
+section h1{
+    font-size: 2.5rem;
+    color: #3DB2FF;
+    text-shadow: 1px 1px 1px black;
+}
+
+.bookname:hover{
+    text-decoration: underline;
+    color: black;
+    text-shadow: 1px 1px 1px #3DB2FF;
+}
+
+section p{
+    max-width: 600px;
+    margin: auto;
+}
+
+section button{
+    padding: 1rem;
+    background-color: #3DB2FF;
+    color: white;
+    outline: none;
+    border-color: #3DB2FF;
+    box-shadow: none;
+    margin-right: 50px;
+    border-radius: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 1rem;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+    border-color: black;
+}
+
+footer{
+    background-color: #3DB2FF;
+    color: white;
+    text-align: center;
+    padding: 4rem;
+    font-size: 1.5rem;
+}
